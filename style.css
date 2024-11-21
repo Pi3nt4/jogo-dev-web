@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+#result {
+    font-size: 1.2em;
+}
+
+footer {
+    font-size: 0.9em;
+}

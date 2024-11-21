@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Algoritmos em C</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+<header class="bg-primary text-white text-center p-4">
+    <h1>Quiz de Algoritmos em C</h1>
+    <p>Teste seus conhecimentos sobre programação em C!</p>
+</header>
+
+<main class="container my-5">
+    <section>
+        <form id="quizForm">
+            <!-- Pergunta 1 -->
+            <div class="form-group">
+                <label for="question1">1. Qual símbolo é usado para comentários de uma linha em C?</label>
+                <div>
+                    <input type="radio" name="question1" value="A" required> A) //
+                </div>
+                <div>
+                    <input type="radio" name="question1" value="B"> B) #
+                </div>
+                <div>
+                    <input type="radio" name="question1" value="C"> C) /*
+                </div>
+            </div>
+
+            <!-- Pergunta 2 -->
+            <div class="form-group">
+                <label for="question2">2. Qual a estrutura correta de um loop for em C?</label>
+                <div>
+                    <input type="radio" name="question2" value="A" required> A) for(int i; i < 10)
+                </div>
+                <div>
+                    <input type="radio" name="question2" value="B"> B) for(i=0; i<10; i++)
+                </div>
+                <div>
+                    <input type="radio" name="question2" value="C"> C) for(int i=0; i<10; i++)
+                </div>
+            </div>
+
+            <!-- Pergunta 3 -->
+            <div class="form-group">
+                <label for="question3">3. Qual é o operador lógico para "ou" em C?</label>
+                <div>
+                    <input type="radio" name="question3" value="A" required> A) &&
+                </div>
+                <div>
+                    <input type="radio" name="question3" value="B"> B) ||
+                </div>
+                <div>
+                    <input type="radio" name="question3" value="C"> C) !
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">Enviar Respostas</button>
+        </form>
+
+        <div id="result" class="mt-4"></div>
+    </section>
+</main>
+
+<footer class="bg-dark text-white text-center p-3">
+    <p>Desenvolvido para aprendizado em HTML, CSS e JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
